@@ -1,0 +1,30 @@
+.Games:hover {
+  color: Red;
+}
+.Photos:hover {
+  color: Green;
+}
+.Drowing:hover {
+  color: Blue;
+}
+.Login:hover {
+  color: Yellow;
+}
+.acount:hover {
+  color: Brown;
+}
+#e-mail:active {
+  
+}
+
+#username:active {
+
+}
+
+#password:active {
+
+}
+
+#Enter:active {
+
+}

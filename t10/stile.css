@@ -1,0 +1,28 @@
+h1 {
+  margin-left: 60%;
+}
+
+ .display-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: auto;
+  width: 820px;
+}
+
+.time-oclock {
+  background-color: #03adfc;
+  color: White;
+  text-align: center;
+  margin-left: 4px;
+}
+
+.celsius {
+  text-align: center;
+}
+
+.border:hover {
+  border: 1px solid Black;
+  padding-right: 5px;
+}

@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+  background-color: Black;
+}
+
+tfoot {
+  color: White;
+  background: linear-gradient(to right, rgba(181,0,0,1) 0%,rgba(188,130,130,1) 100%);
+  text-align: center;
+}
+
+thead {
+  color: Gold;
+  background: linear-gradient(to right, rgba(181,0,0,1) 0%,rgba(188,130,130,1) 100%);
+}
+
+.red {
+  font-size: 18px;
+  background-color: #960b02;
+  color: White;
+  text-align: center;
+}
+.white {
+  font-size: 18px;
+  background-color: #f5dece;
+  color: Black;
+  text-align: center;
+}
+
+.white-red {
+  color: White;
+  background-color: #ad5555;
+  text-align: center;
+}
+
+.black-red {
+  color: White;
+  background-color: #852525;
+  text-align: center;
+}

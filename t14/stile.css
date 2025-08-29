@@ -1,0 +1,140 @@
+h1 {
+  color: White;
+  font-size: 40px;
+  font-family: sans-serif;
+  display: inline-block;
+  line-height: 0.8;
+}
+
+p {
+  height: 40px;
+  width: 250px;
+  margin: 0;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li  {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+}
+
+.titleX-men {
+  text-align: center;
+  background: #c920c4;
+  height: 10%;
+  width: 100%;
+  font-size: 60px;
+
+}
+
+.block-first {
+  background-color: #bababa;
+  position: relative;
+  left: 30%;
+  width: 250px;
+  font-size: 20px;
+}
+
+.first-drop-down {
+  position: relative;
+  background-color: #bababa;
+  right: 0;
+  height: 40px;
+  width: 250px;
+  display: none;
+}
+
+.second-drop-down {
+  position: relative;
+  background-color: #bababa;
+  right: 0;
+  height: 40px;
+  width: 250px;
+  display: none;
+}
+
+.block-inside-first  {
+  color: Black;
+  position: absolute;
+  right: 250px;
+  top: 40px;
+  background-color: #bababa;
+  height: 120px;
+  width: 250px;
+  display: none;
+}
+
+.block-inside-second  {
+  color: Black;
+  position: absolute;
+  right: 250px;
+  top: 80px;
+  background-color: #bababa;
+  height: 120px;
+  width: 250px;
+  display: none;
+}
+
+.block-first:hover  .first-drop-down  {
+  background-color: #c920c4;
+  display: block;
+}
+
+.block-first:hover  {
+  background-color: #c920c4;
+  display: block;
+}
+
+.block-first:hover  .second-drop-down  {
+  background-color: #c920c4;
+  display: block;
+}
+
+.block-first:hover  .second-drop-down  {
+  background-color: #c920c4;
+  display: block;
+}
+
+.first-drop-down:hover  ~ .block-inside-first  {
+  background-color: #bababa;
+  display: block;
+}
+
+.block-inside-first:hover  {
+  background-color: #c920c4;
+  display: block;
+}
+
+.second-drop-down:hover ~ .block-inside-second {
+  background-color: #bababa;
+  display: block;
+}
+
+.first-drop-down:hover ~ .kladman {
+  background-color: #bababa;
+  display: block;
+}
+
+.first-drop-down:hover ~ .divaniu-voin {
+  background-color: #bababa;
+  display: block;
+}
+
+.first-drop-down:hover ~ .mamkin-analitik {
+  background-color: #bababa;
+  display: block;
+}
+
+

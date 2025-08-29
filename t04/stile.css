@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-image: url(https://storage.googleapis.com/pod_public/1300/122765.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: Pink;
+  font-size: 80px;
+  -webkit-text-stroke: 3px black;
+  margin-left: 42%;
+  margin-top: 0%;
+  font-family: 'Danh Hong',cursive;
+}
+
+#flag-White {
+  height: 280px;
+  width: 450px;
+  background-color: White;
+  border: 2px solid Black;
+  margin-left: 35%;
+}
+
+#flag-red {
+  height: 150px;
+  width: 150px;
+  background-color: Red;
+  margin: 65px 150px;
+  border-radius: 50%;
+}

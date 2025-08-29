@@ -1,0 +1,62 @@
+.thead-table-Black {
+  color: White;
+  background-color: Black;
+  height: 130;
+}
+
+.tr-table-Orange {
+  background-color: Orange;
+}
+
+.tr-table-Green {
+  background-color: Green;
+}
+
+.tr-table-Blue {
+  background-color: Blue;
+}
+
+.tr-table-Yellow {
+  background-color: Yellow;
+}
+
+.tr-table-Red {
+  background-color: Red;
+}
+
+.tr-table-Purple {
+  background-color: Purple;
+}
+
+.font-size-12 {
+font-size: 12px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+img {
+  height: 110px;
+  width: 110px;
+  border-radius: 8px;
+  margin: 10px
+}
+
+.Htmldiv {
+  margin: 10px;
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Htmldiv:hover {
+  background-color: Green;
+  color: Blue;
+  cursor: pointer;
+}
+.Htmldiv:active {
+  background-color: Gold;
+  color: Red;
+  cursor: crosshair;
+}

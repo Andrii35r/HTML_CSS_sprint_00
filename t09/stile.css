@@ -1,0 +1,28 @@
+a {
+  color: Blue;
+}
+
+a::before {
+  content: "»";
+  margin-right: 10px;
+}
+
+a[target|="_blank"]::after {
+  color: Orange;
+  content: "⇒";
+}
+
+a[href*="https://www"] {
+color: Green;
+}
+
+
+a[href*="http://"]::before {
+  color: Red;
+  content: "×"
+}
+
+a[href*="sitemaps."]:hover::after {
+  color: Red;
+  content: "Link in profile"
+}

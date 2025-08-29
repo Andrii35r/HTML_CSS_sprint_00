@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00aaff;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display {
+    grid-column: span 4;
+    height: 70px;
+    text-align: right;
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+.number {
+    background-color: #ccc;
+    height: 70px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #ffaa00;
+    height: 70px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #666;
+    color: rgb(194, 194, 194);
+    grid-column: span 3;
+    height: 70px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.zero {
+    grid-column: span 2;
+    height: 70px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear:active {
+    height: 68px;
+    background-color: #545454;
+    color: #868686;
+}
+
+.zero:active {
+    height: 68px;
+    background-color: #8d8d8d;
+    color: #353535;
+}
+
+.number:active {
+    height: 68px;
+    background-color: #909090;
+    color: #353535;
+}
+
+.operator:active {
+    height: 68px;
+    background-color: #c27100;
+    color: #353535;
+}

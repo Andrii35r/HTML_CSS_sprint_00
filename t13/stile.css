@@ -1,0 +1,24 @@
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.infinity-gauntlet {
+  width: 130px;
+  margin: 10px;
+}
+
+.people{
+  width: 80px;
+  margin: 40px;
+}
+
+
+.infinity-gauntlet:hover ~ .even .people:nth-child(even) {
+  opacity: 0;
+}
+
+.infinity-gauntlet:hover ~ .odd .people:nth-child(odd) {
+  opacity: 0;
+}

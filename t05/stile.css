@@ -1,0 +1,96 @@
+.capitan-america {
+  position: relative;
+  height: 160px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom,  rgba(0,8,255,1) 0%,rgba(190,61,255,1) 53%,rgba(229,2,255,1) 72%,rgba(255,5,234,1) 100%);
+}
+
+.iron-man {
+  position: relative;
+  height: 160px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: Red;
+}
+
+.black-widow {
+  position: relative;
+  height: 160px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: Purple;
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(116,0,170,1) 71%,rgba(174,0,255,1) 100%);
+}
+
+.spider-man {
+  position: relative;
+  height: 160px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: Red;
+  background: linear-gradient(to bottom, rgba(255,0,4,1) 0%,rgba(153,1,4,1) 52%,rgba(0,0,0,1) 100%);
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.super-name {
+  font-size: 18px;
+  text-align: right;
+  color: White;
+  margin-right: 22px;
+  font-family: inherit;
+}
+
+.name {
+  font-size: 14px;
+  text-align: right;
+  color: White;
+  margin-right: 22px;
+  line-height: 0.1;
+  font-family: inherit;
+}
+ .capitan-america-img {
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+
+  height: 180px;
+  width: 135px;
+}
+
+.iron-man-img {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+  height: 178px;
+ width: 135px;
+}
+
+.black-widow-img {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+  height: 196px;
+  width: 120px;
+}
+
+.spider-man-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  height: 180px;
+  width: 108px;
+}

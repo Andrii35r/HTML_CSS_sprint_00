@@ -1,0 +1,17 @@
+input {
+  margin-top: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+.fieldset-about-the-superhero {
+  height: 640;
+  width: 1400;
+}
+
+.about {
+  height: 100px;
+  width: 300px;
+}

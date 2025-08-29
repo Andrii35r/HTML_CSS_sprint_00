@@ -1,0 +1,13 @@
+p {
+  background-color: Red;
+  color: White;
+  font-size: 160px;
+  letter-spacing: 20px;
+  font-family: fantasy;
+  height: 160px;
+  text-align: center;
+}
+
+div {
+  vertical-align: flex-end;
+}

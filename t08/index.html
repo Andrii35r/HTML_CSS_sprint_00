@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./stile.css">
+    <title>Superhero form</title>
+  </head>
+  <body>
+    <h1>Superhero Form</h1>
+    <form action="https://www.marvel.com/comics/characters" method="post">
+    <fieldset>
+      <fieldset class="fieldset-about-the-superhero">
+        <legend>About the superhero</legend>
+        <label for="real">Real Name</label>
+          <input id="real" type="text" name="Real Name" required>
+          <label for="superhero">Superhero Name</label>
+          <input id="superhero" type="text" name="Superhero Name" required>
+          <label for="age">Age</label>
+          <input id="age"  type="number" name="Age" min="0" max="999" required>
+          <br>
+          <label for="mytexatarea">About</label>
+          <textarea id="mytexatarea" name="myTextarea" rows="5" cols="30"></textarea>
+          <br>
+          <label>Photo:</label>
+          <input type="file" name="Photo">
+        </fieldset>
+        <fieldset>
+          <legend>Powers</legend>
+          <input id="telekinesis" type="checkbox" name="Telekinesis">
+          <label for="telekinesis">Telekinesis</label>
+          <input id="strengh-or-speed" type="checkbox" name="Super Strengh or Speed">
+          <label for="strengh-or-speed">Super Strengh or Speed</label>
+          <input id="shapeshifting" type="checkbox" name="Shapeshifting">
+          <label for="shapeshifting">Shapeshifting</label>
+          <input id="flight" type="checkbox" name="Flight">
+          <label for="flight">Flight</label>
+          <input id="control" type="checkbox" name="Elemental Control">
+          <label for="control">Elemental Control</label>
+          <input id="other" type="checkbox" name="Other">
+          <label for="other">Other</label>
+          <br>
+          <label>Lever for Controls</label>
+          <input class="input-range" type="range" name="Powers">
+        </fieldset>
+        <fieldset>
+          <legend>Origin of Powers</legend>
+          <input id="uknown" type="radio" name="Powers">
+          <label for="uknown">Uknown</label>
+          <input id="freak" type="radio" name="Powers">
+          <label for="freak">Freak lab accient</label>
+          <input id="chosen" type="radio" name="Powers">
+          <label for="chosen">Chosen by acient being</label>
+          <input id="isn't-human" type="radio" name="Powers">
+          <label for="isn't-human">The superhero isn't human</label>
+          <input id="other-powers" type="radio" name="Powers">
+          <label for="other-powers">Other</label>
+        </fieldset>
+      <input type="reset" name="reset">
+        <input type="submit" name="submit">
+    </fieldset>
+  </form>
+  </body>
+</html>
